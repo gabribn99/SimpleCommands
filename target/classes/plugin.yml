@@ -1,0 +1,30 @@
+name: SimpleCommands
+version: '1.0-SNAPSHOT'
+main: plugin.core.Main
+api-version: 1.19
+show-command-output: false
+commands:
+  tpa:
+    description: Con este comando pides teletransportarte a otro jugador
+    usage: /tpa
+  tpaccept:
+    description: Con este comando aceptas una peticion de teletransporte de otro jugador
+    usage: /tpaccept
+  tpdeny:
+    description: Con este comando rechazas una peticion de teletransporte de otro jugador
+    usage: /tpdeny
+  sethome:
+    description: Con este comando estableces la ubicación de tu casa
+    usage: /sethome
+  home:
+    description: Con este comando vuelves a casa
+    usage: /home
+  delhome:
+    description: Con este comando borras las casas asignadas
+    usage: /delhome
+  enderchest:
+    description: Con este comando abres el enderchest
+    usage: /enderchest
+    aliases:
+      - ender
+      - echest
